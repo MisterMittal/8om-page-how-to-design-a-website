@@ -88,6 +88,14 @@ h2 {
   padding: 0 20px;
 }
 
+.point-block:nth-of-type(odd) .point-txt {
+  padding-left: 0;
+}
+
+.point-block:nth-of-type(even) .point-txt {
+  padding-right: 0;
+}
+
 .point-img {
   width: 40%;
   display: flex;
